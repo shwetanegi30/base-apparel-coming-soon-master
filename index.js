@@ -7,6 +7,7 @@ const submitBtn = document.getElementById("submit")
 errorMsg.style.visibility = "hidden";
 errorIcon.style.visibility = "hidden";
 
+
 form.addEventListener("submit", (event) => {
     event.preventDefault();
 
@@ -15,6 +16,7 @@ form.addEventListener("submit", (event) => {
     } else {
         errorMsg.style.visibility = "visible";
         errorIcon.style.visibility = "visible";
+        document.getElementById("email").style.borderColor = "red";
     }
 });
 
@@ -22,4 +24,5 @@ email.addEventListener("input", () => {
     errorMsg.style.visibility = "hidden";
     errorMsg.style.border = "0px 10px 20px red";
     errorIcon.style.visibility = "hidden";
+   
 });

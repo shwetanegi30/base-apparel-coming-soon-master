@@ -33,13 +33,17 @@
     display: block;
     margin-left: auto;
 }
-header{
+
+header {
     padding-top: 50px;
 }
+
 .base-apparel-card {
     padding-top: 75px;
 }
-.card-title, span{
+
+.card-title,
+span {
     font-size: 50px;
     letter-spacing: 1rem;
     text-transform: uppercase;
@@ -63,9 +67,11 @@ span {
     padding-top: 25px;
     line-height: 1.6;
 }
-#form{
+
+#form {
     position: relative;
 }
+
 .email {
     border-radius: 100px;
     margin-top: 40px;
@@ -100,8 +106,8 @@ span {
 }
 
 .card-error {
-     position: relative;
-     top: 5px;
+    position: relative;
+    top: 5px;
     left: -138px;
 }
 
@@ -120,14 +126,20 @@ span {
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
+
     .left-side {
         padding: 0;
         background-image: none;
     }
 
-.logo-icon{
-    padding: 48px 0 30px 25px;
-}
+    .header {
+        padding-top: 0;
+    }
+
+    .logo-icon {
+        padding: 0 0 30px 25px;
+    }
+
     .hero-img {
         display: none;
     }
@@ -136,43 +148,53 @@ span {
         display: inline;
         width: 100vw;
     }
-.base-apparel-card{
-    text-align: center;
-    padding-top: 60px;
-}
-.card-title, span{
-    font-size: 30px;
-    line-height: 1.2;
-}
-.discription{
-    font-size: 14px;
-    padding: 25px 30px;
-}
-.btn-form{
-    display: flex;
-    justify-content: center;
-}
-.email{
-    margin-top: 0;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    width: 100%;
-}
-.email::placeholder{
-    font-size: 11px;
-}
-.arrow-btn{
-    padding: 0 30px;
-    left: 79px;
-    top: -100px;
-}
-.card-error{
-    left: 23px;
-    top: -40px;
-}
-.error-msg{
-    padding: 0;
-    
-}
+
+    .base-apparel-card {
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    .card-title,
+    span {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .discription {
+        font-size: 14px;
+        padding: 25px 30px;
+    }
+
+    .btn-form {
+        display: flex;
+        justify-content: center;
+    }
+
+    .email {
+        margin-top: 0;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        width: 100%;
+    }
+
+    .email::placeholder {
+        font-size: 11px;
+    }
+
+    .arrow-btn {
+        padding: 0 30px;
+        left: 79px;
+        top: -100px;
+    }
+
+    .card-error {
+        left: 23px;
+        top: -40px;
+    }
+
+    .error-msg {
+        padding: 0;
+
+    }
 
 }
