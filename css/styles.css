@@ -76,9 +76,8 @@ span {
     border-radius: 100px;
     margin-top: 40px;
     padding: 18px 0 18px 30px;
-    width: 65%;
     border: 1px solid hsl(0, 36%, 70%);
-    width: 100%;
+    width: 40%;
     position: relative;
 }
 
@@ -96,7 +95,7 @@ span {
     background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
     position: absolute;
     top: 37px;
-    left: 257px;
+    left: 233px;
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -185,7 +184,7 @@ span {
 
     .arrow-btn {
         padding: 0 30px;
-        left: 167px;
+        left: 157px;
         top: -3px;
     }
 
@@ -200,3 +199,5 @@ span {
     }
 
 }
+
+
